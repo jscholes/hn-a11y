@@ -31,4 +31,6 @@ for(post_site of post_sites)
             child.remove();
         }
     }
+    post_site.setAttribute('role', 'heading');
+    post_site.setAttribute('aria-level', 3);
 }
